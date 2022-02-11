@@ -1,4 +1,8 @@
 # metricbeat
+dashboard 选择
+[Metricbeat System] Host overview ECS
+[Metricbeat PostgreSQL] Database Overview
+
 
 docker run \
   --mount type=bind,source=/proc,target=/hostfs/proc,readonly \ 
